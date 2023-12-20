@@ -1,36 +1,27 @@
-<!DOCTYPE html>
-<!-- code by webdevtrick (https://webdevtrick.com) -->
-<html>
-    <head lang="en">
-        <meta charset="UTF-8" />
-        <title>Quiz</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
-    <body>
-        <div class="grid">
-            <div id="quiz">
-                <h1>
-                    Fødselsdags Quiz! <br />
-                    🇩🇰🇩🇰🇩🇰
-                </h1>
-                <hr style="margin-bottom: 20px" />
-
-                <p id="question"></p>
-
-                <div class="buttons">
-                    <button id="btn0"><span id="choice0"></span></button>
-                    <button id="btn1"><span id="choice1"></span></button>
-                    <button id="btn2"><span id="choice2"></span></button>
-                    <button id="btn3"><span id="choice3"></span></button>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="style.css" />
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="text-center text-light my-5">
+                <strong>Hover the box</strong>
+            </h3>
+        </div>
+        <div class="col-12 mt-5 d-flex justify-content-center">
+            <div class="box">
+                <div class="box-body">
+                    <!-- <img class="img" src="https://via.placeholder.com/150" /> -->
+                    <img class="img" src="./assets/skis.png" />
+                    <div class="box-lid">
+                        <div class="box-bowtie"></div>
+                    </div>
                 </div>
-
-                <hr style="margin-top: 50px" />
-                <footer>
-                    <p id="progress">Spørgsmål x of y hey</p>
-                </footer>
             </div>
         </div>
-
-        <script src="question.js"></script>
-    </body>
-</html>
+    </div>
+</div>
